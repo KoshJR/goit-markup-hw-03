@@ -200,9 +200,7 @@ body {
 .advantages-section-item {
     width: calc(100% - (24px *3) / 4);
 }
-.section-three {
-    padding-bottom: 120px;
-}
+
 .second-tittle {
     color: var(--primary-accent-color);
     font-size: 36px;
