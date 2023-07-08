@@ -1,0 +1,177 @@
+:root {
+    --primary-font: "Roboto", sans-serif;
+    --title-font: "Roboto", sans-serif;
+    --primary-black-color: #434455;
+    --primary-white-color: #ffffff;
+    --primary-accent-color: #2e2f42; 
+    --secondary-accent-color: #404BBF;
+    --iris: #4d5ae5;
+    --cloud: #f4f4f4; 
+    --secondary-white-color: #f4f4fd; 
+
+    
+}
+
+body {
+    font-family: var(--primary-font);
+    color: var(--primary-black-color);
+    background-color: var(--primary-white-color);
+    font-size: 16px;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
+}
+.link {
+    text-decoration: none;
+    list-style: none;
+}
+.logo-web-head {
+    font-size: 18px;
+        font-family: Raleway, sans-serif;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        color: var(--iris);
+        text-decoration: none;
+        text-transform: uppercase;
+}
+.logo-studio-head {
+    color: var(--primary-accent-color);
+}
+.list {
+    list-style: none;
+    text-decoration: none;
+}
+.nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary-accent-color);   
+}
+.nav-link:hover, .nav-link:focus, .nav-link:active {
+    color: var(--secondary-accent-color);
+}
+.header-address {
+    font-style: normal;
+}
+.address-link {
+    font-style: normal;
+    color: var(--primary-black-color);
+}
+.address-link:hover, .address-link:focus {
+    color: var(--secondary-accent-color);
+}
+.address-tel {
+    color: var(--primary-accent-color);
+}
+.address-tel:hover, .address-tel:focus {
+    color: var(--secondary-accent-color);
+}
+.section-one {
+    background-color: var(--primary-accent-color);
+}
+.content-subtittle {
+ color: var(--primary-accent-color);
+ background-color: var(--primary-white-color);
+ font-size: 20px;
+ font-weight: 500;
+ line-height: 1.2;
+ letter-spacing: 0.02em;
+}
+.content-text {
+  color: var(--primary-black-color);
+}
+
+footer {
+    background-color:var(--primary-accent-color);
+}
+.footer-text {
+    color: var(--secondary-white-color);
+}
+.logo-web {
+    font-size: 18px;
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--iris);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.logo-studio {
+    color: var(--secondary-white-color);
+}
+
+.first-tittle {
+    color: var(--primary-white-color);
+    background-color: var(--primary-accent-color) ;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.advantages-tittle {
+    color: var(--primary-accent-color);
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+.advantages-text {
+    color: var(--primary-black-color);
+}
+.second-tittle {
+    color: var(--primary-accent-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.section-four {
+    background-color: var(--secondary-white-color);
+}
+.team-card {
+    background-color: var(--primary-white-color);  
+}
+.member-name {
+    color: var(--primary-accent-color);
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+.member-position {
+    color: var(--primary-black-color);
+}
+.btn-order {
+    background-color: var(--iris);
+    color: var(--primary-white-color);
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+.btn-order:hover, .btn-order:focus {
+    background-color: var(--secondary-accent-color);
+    color: var(--primary-white-color);
+}
+.btn-all {
+    background-color: var(--secondary-white-color);
+    color: var(--iris);
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+}
+.btn-all:hover, .btn-all:focus {
+    background-color: var(--secondary-accent-color);
+    color: var(--primary-white-color);
+}
+
+
