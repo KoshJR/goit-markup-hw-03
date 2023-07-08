@@ -51,6 +51,7 @@ body {
         color: var(--iris);
         text-decoration: none;
         text-transform: uppercase;
+        margin-right: 76px;
 }
 .logo-studio-head {
     color: var(--primary-accent-color);
@@ -75,17 +76,18 @@ body {
 }
 .header-nav {
     display: flex;
+    align-items: center;
 
 }
 .header-menu {
     display: flex; 
     gap: 40px;
-    margin-left: 76px;
 }
 .nav-link {
     font-size: 16px;
     font-weight: 500;
-    color: var(--primary-accent-color);   
+    color: var(--primary-accent-color); 
+    padding: 24px 0;  
 }
 .nav-link:hover, .nav-link:focus, .nav-link:active {
     color: var(--secondary-accent-color);
@@ -141,10 +143,10 @@ body {
     color: var(--iris);
     text-decoration: none;
     text-transform: uppercase;
-}
-.footer-logo {
+    display: inline-block;
     margin-bottom: 16px;
 }
+
 .logo-studio {
     color: var(--secondary-white-color);
 }
@@ -196,10 +198,10 @@ body {
     margin: 0 auto;
 }
 .advantages-section-item {
-    max-width: calc(100% - (24px *3) / 4);
+    width: calc(100% - (24px *3) / 4);
 }
 .section-three {
-    paddint-bottom: 120px;
+    padding-bottom: 120px;
 }
 .second-tittle {
     color: var(--primary-accent-color);
@@ -293,25 +295,28 @@ height: auto;
 .btn-all:hover, .btn-all:focus {
     background-color: var(--secondary-accent-color);
     color: var(--primary-white-color);
+    border:1px solid transparent;
 }
 .portfolio-section {
-padding-top: 96px;
-padding-bottom: 120px;
+padding: 96px 0 120px 0;
 }
 .portfolio-section-list {
     display: flex;
     justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
+
+
 }
 .portfolio-items {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+
 }
 .content-item {
-    max-width: calc(100% - (24 * 2) / 3);
+    width: calc((100% - 48px) / 3);
 }
 .content-subtittle {
     margin-bottom: 8px;
